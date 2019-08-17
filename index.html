@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="main.css">
+  <title>Michael Pabody</title>
+</head>
+
+
+<!-- Nav Bar-->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#header">Michael Pabody</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#header">Home</a></li>
+      <li><a href="#aboutMe">About Me</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contactMe">Contact Me</a></li>
+    </ul>
+    <a href="https://github.com/mpabody" target="_blank"><img class="logo" src="assets/GitHub.png"></a>
+    <a href="https://www.linkedin.com/in/michael-pabody-b09a361a/" target="_blank"><img class="logo" src="assets/LinkedIn.png"></a>
+  </div>
+</nav>
+
+
+
+
+<header id="header" class="img.fluid"
+  style="height:50vh; background: url(assets/IndyLandscape.jpg) no-repeat center center; background-size:cover;">
+  <h1 id="fullName">Michael Pabody</h1>
+</header>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-8">
+        <h2 id="aboutMe">About Me</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-8">
+        <br>
+        <h3>Family Life</h3>
+        <p>My wife Amanda and I have been married since September of 2016. We live near Beech Grove with our two dogs, Crosby
+          and Holly. I have three sisters (all married to fantastic guys) and ten nieces and nephews. My family is very
+          close and a huge part of my life.</p>
+
+        <h3>Education and Professional Career</h3>
+        <p>I have worked four jobs since graduating from Taylor University in 2010 with a bachelor's degree in
+          marketing. I have held multiple sales related positions including a six year span where I was a sales and
+          service representative at Cintas in their First Aid and Safety division. I am very appreciative for all the
+          experience in these roles however I have decided that I would like to enter the technology industry and have
+          begun the
+          challenging process of changing career paths.
+
+          In July I began a part-time .Net program at Eleven Fifty Academy and I am set to graduate in December. I am
+          enjoying the program thus far and look forward to carving a new career path in this new industry.</p>
+
+        <h3>Looking Ahead</h3>
+        <p>Upon graduation from Eleven Fifty Academy, I am planning to take on a role as a junior developer to continue
+          to expand my skillset as a coder. I do not currently have a five or ten year plan as I am still trying to
+          determine the best path for me. I look forward to getting work experience and figure out where my passions
+          line up with my skills to make a long and enjoyable career.</p>
+      </div>
+      <div class="col-lg-4">
+        <img class="aboutMe" src="assets/AboutMe.JPG" alt="My wife and me">;
+      </div>
+    </div>
+  </div>
+
+  <br><br>
+
+  <div class="container-fluid projects">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 id="projects">Projects</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <article class="col-lg-4">
+        <h3>Gold Badge Console Apps</h3>
+        <a href="https://github.com/mpabody/GoldBadgeChallenges" target="_blank">
+          <img src="assets/VSComBadge.png" style="width: 300px; height: 250px;">
+        </a>
+      </article>
+
+
+      <article class="col-lg-4">
+        <h3>Static Store Front</h3>
+        <a href="https://mpabody.github.io/StaticStoreFront/" target="_blank">
+          <img src="assets/StaticStoreFront.jpg" style="width: 300px; height: 250px;">
+        </a>
+      </article>
+
+
+
+      <article class="col-lg-4">
+        <h3>CSS Creature</h3>
+        <a href="https://codepen.io/mpabody/pen/WqBNrj" target="_blank">
+          <img src="assets/CSS_Creature.png" style="width: 300px; height: 250px;">
+        </a>
+      </article>
+    </div>
+  </div>
+
+  <br><br><br><br>
+
+  <!-- Formspree -->
+  <div class="container contactForm" style="background-color: rgb(90, 60, 60)">
+    <h3 id="contactMe">Contact Me</h3>
+    <form action="https://formspree.io/michael.pabody@gmail.com" method="POST">
+      <div class="row">
+        <input class="formStyle name" type="text" name="name" placeholder="Your Name" size="57">
+      </div>
+      <div class="row">
+        <input class="formStyle email" type="email" name="_replyto" placeholder="Your Email Address" size="57">
+      </div>
+      <div class="row">
+        <textarea class="formStyle" name="message" id="message" placeholder="Message" rows="6" cols="59"
+          required></textarea>
+      </div>
+      <div class="row">
+        <input class="formStyle send" type="submit" value="Send Message"><br>
+      </div>
+    </form>
+  </div>
+
+  <br><br><br><br>
+
+
+
+
+  <!-- Formspree -- old code --> 
+
+  <!-- <div class="container contactForm" style="background-color: rgb(90, 60, 60)">
+      <h3 id="contactMe">Contact Me</h3>
+      <form action="https://formspree.io/michael.pabody@gmail.com" method="POST">
+        <input class="formStyle" type="text" name="name" placeholder="Your Name">
+        <input class="formStyle" type="email" name="_replyto" placeholder="Your Email Address">
+        <input class="formStyle" type="submit" value="Send"><br>
+        <textarea class="formStyle" name="message" id="message" placeholder="Message" rows="6" cols="59"
+          required></textarea>
+      </form>
+    </div> -->
+
+
+
+  <!--Bootstrap-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <!--Bootstrap-->
+
+</body>
+
+</html>
